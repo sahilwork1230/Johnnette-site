@@ -1,0 +1,10 @@
+# Large video files
+*.mp4
+*.MP4
+*.mp4
+*.MP4
+
+# Large image files — optional; use only if you intend
+# to exclude all images with these extensions
+# *.psd
+# *.tiff
