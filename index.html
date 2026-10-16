@@ -2,388 +2,561 @@
 <html lang="en">
 
 <head>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-248379699-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-248379699-1');
-    </script>
-
-
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Johnnette Technologies</title>
-    <meta name="keywords" content="johnnette jf-2, johnnette jf-3 vtol, johnnette JF-4, drone manufacturing, make in india, multi rotor drone, fixed-wing drones, reliable and high quality drones at lower cost, unmanned aerial vehicle, mapping drone, surveillance drone, drone, Defence, drone for Defence">
-    <meta name="description" content="Johnnette Technologies is a drone manufacturer company, developing drone solution for a variety of applications, unmanned aerial vehicle, manufacturing drone for military, reliable and high quality drones at low cost ">
-    <link rel="icon" href="https://johnnette.com/img/logo/logo.webp">
-    <link rel="manifest" href="https://johnnette.com/manifest.json">
 
-    <!-- font awesome cdn link -->
-    <!-- fa5-$-css  -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <title>Johnnette | Unmanned Aerial Systems</title>
 
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- custom css file link -->
-    <link rel="stylesheet" href="css/header-footer.css">
-    <link rel="stylesheet" href="css/index.css">
-
-    <!-- to link header footer -->
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
-    </script>
-    <!-- <script>
-        $(function() {
-            $("#header").load("header.html");
-            $("#footer").load("footer.html");
-        });
-    </script> -->
-
-    <!-- Global css for whole page -->
-    <style>
-        @font-face {
-            font-family: "d-din";
-            src: url("fonts/D-DIN-Bold.otf");
-            src: url("fonts/D-DIN-Italic.otf");
-            src: url("fonts/D-DINExp.otf");
-            src: url("fonts/D-DINCondensed.otf");
-            src: url("fonts/D-DINCondensed-Bold.otf");
-            src: url("fonts/D-DINExp-Italic.otf");
-            src: url("fonts/D-DIN.otf");
-        }
-        
-        * {
-            font-family: 'D-DIN Condensed', sans-serif;
-            font-family: 'D-DIN Exp', sans-serif;
-            font-family: 'D-DIN', sans-serif;
-            font-family: d-din;
-        }
-    </style>
-    <script>
-        $(function() {
-            $("#header").load("header.html");
-            $("#footer").load("footer.html");
-        });
-    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home-v2.css">
 </head>
 
-<body onload="load()" style="background-color: black;">
+<body>
+    
+<header class="site-header" id="site-header">
+  <nav class="site-nav" aria-label="Main navigation">
 
-    <!--== header link ==-->
-    <div id="header"></div>
+    <!-- Brand -->
+    <a class="nav-logo" href="#hero" aria-label="Johnnette home">
+      <span class="nav-logo-mark" aria-hidden="true"></span>
+      <span>
+        JOHNNETTE
+        <small>UNMANNED SYSTEMS</small>
+      </span>
+    </a>
 
+    <!-- Navigation -->
+    <div class="nav-links" id="nav-links">
+      <a class="nav-link is-current" href="#hero">HOME</a>
 
-    <!--============ main section =============-->
+      <!-- Products / Categories -->
+      <div class="nav-category" id="nav-category">
+        <button
+          class="nav-link nav-category-trigger"
+          id="products-trigger"
+          type="button"
+          aria-expanded="false"
+          aria-controls="products-menu"
+          aria-haspopup="true"
+        >
+          PRODUCTS
+          <span class="nav-chevron" aria-hidden="true"></span>
+        </button>
 
-    <section class="box_container on_screen">
-        <div class="background jf4" id="image1"></div>
-        <div class="background jf4" id="image2"></div>
-        <div class="bottom_content">
-            <h1 class="content_header">JOHNNETTE JF-4</h1>
-            <h2 class="content_sub_header">
-                Johnnette JF-4 is a Medium Altitude Long Endurance strategic Unmanned Combat Aerial Vehicle (UCAV) capable of conducting operations that are performed with fighter jets.
-            </h2>
-            <a href="jf4.html" class="content_button">
-                <span class="text">Know more</span>
-                <div class="hover"></div>
-            </a>
-        </div>
-    </section>
+        <div class="systems-menu" id="products-menu">
+          <div class="systems-menu-inner">
 
-    <section class="box_container on_screen">
-        <div class="background jf2" id="image1"></div>
-        <div class="background jf2" id="image2"></div>
-        <div class="bottom_content">
-            <h3 class="content_header">JOHNNETTE JF-2</h3>
-            <h4 class="content_sub_header">Johnnette JF-2 is ideal for low-altitude Intelligence, Surveillance, and Reconnaissance missions that depend on rapid deployment and pinpoint manoeuvrability.</h4>
-            <a href="jf2.html" class="content_button">
-                <span class="text">Know more</span>
-                <div class="hover"></div>
-            </a>
-        </div>
-    </section>
+            <div class="systems-menu-intro">
+              <span class="nav-overline">
+                JOHNNETTE / PRODUCT DIRECTORY
+              </span>
 
-    <section class="box_container on_screen">
-        <div class="background jm1" id="image1"></div>
-        <div class="background jm1" id="image2"></div>
-        <div class="bottom_content">
-            <h4 class="content_header">JOHNNETTE JM-1</h4>
-            <h4 class="content_sub_header">Johnnette JM-1 will be a state-of-the-art purpose-built Loitering Munition (LM) that can be used for aerial surveillance and target neutralisation by Land and Naval forces.</h4>
-            <a href="jm1.html" class="content_button">
-                <span class="text">Know more</span>
-                <div class="hover"></div>
-            </a>
-        </div>
-    </section>
+              <h2>
+                OUR<br>
+                <em>PLATFORMS.</em>
+              </h2>
 
+              <p>
+                Explore our unmanned systems by mission category.
+              </p>
 
-    <!-- <section class="box_container on_screen">
-        <div class="background JVM-100" id="image1"></div>
-        <div class="background JVM-100" id="image2"></div>
-        <div class="bottom_content">
-            <h1 class="content_header">JVM-100</h1>
-            <h4 class="content_sub_header">The JVM-100 is an observation class ROV that goes up to a depth of 100m and gives you live HD videos. Its HD Camera gives real-time view to the user at an instant.</h4>
-            <a href="JVM-100.html" class="content_button">
-                <span class="text">Know more</span>
-                <div class="hover"></div>
-            </a>
-        </div>
-    </section> -->
-
-    <!-- <section class="box_container on_screen">
-        <div class="background JOBOT" id="image1"></div>
-        <div class="background JOBOT" id="image2"></div>
-        <div class="bottom_content">
-            <h1 class="content_header">JOHNNETTE JOBOT</h1>
-            <h4 class="content_sub_header">
-                Johnnette Jobot is a state-of-the-art Unmanned Rover for Oil and Gas inspection - the perfect solution for any company seeking to streamline their inspection processes and enhance overall efficiency.
-            </h4>
-            <a href="JOBOT.html" class="content_button">
-                <span class="text">Know more</span>
-                <div class="hover"></div>
-            </a>
-        </div>
-    </section> -->
-
-    <div class="container" id="count-container">
-        <div class="row">
-            <div class="col-sm">
-                <p style="text-align: center; font-size: 70px; font-weight: bold" id='0101' class="text-light">700+</p>
-                <p style="text-align: center; font-size: 21px" class="text-light">Total Drones & Robots Delivered</p>
+              <a href="#products" class="systems-all">
+                VIEW ALL PRODUCTS <span aria-hidden="true">↗</span>
+              </a>
             </div>
-            <div class="col-sm">
-                <p style="text-align: center; font-size: 70px; font-weight: bold" id='0102' class="text-light">07</p>
-                <p style="text-align: center; font-size: 21px" class="text-light">Worldwide Presence</p>
-            </div>
-            <div class="col-sm">
-                <p style="text-align: center; font-size: 70px; font-weight: bold" class="text-light"><span id='0103'>3500</span>
+
+            <div class="systems-menu-categories">
+
+              <!-- Loitering Munition -->
+              <div class="systems-category-card">
+                <span class="category-index">01 / CATEGORY</span>
+
+                <h3 class="category-name">
+                  LOITERING<br>MUNITION
+                </h3>
+
+                <p class="category-description">
+                  Explore our loitering munition platforms.
                 </p>
-                <p style="text-align: center; font-size: 21px" class="text-light align-content-center">Global Drone Pilots Trained</p>
-            </div>
-            <div class="col-sm">
-                <p style="text-align: center; font-size: 70px; font-weight: bold" class="text-light"><span id='0104'>44</span>
+
+                <div class="category-products">
+                  <a href="#jf4" class="category-product-link">
+                    <span>JF-4</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Surveillance -->
+              <div class="systems-category-card systems-category-upcoming">
+                <span class="category-index">02 / CATEGORY</span>
+
+                <h3 class="category-name">
+                  SURVEILLANCE
+                </h3>
+
+                <p class="category-description">
+                  Surveillance platforms and mission systems.
                 </p>
-                <p style="text-align: center; font-size: 21px" class="text-light align-content-center">Government Contracts</p>
+
+                <span class="category-bottom">
+                  CATALOGUE COMING SOON
+                </span>
+              </div>
+
             </div>
+          </div>
         </div>
+      </div>
+
+      <a class="nav-link" href="#mission">OUR MISSION</a>
     </div>
 
-    <style>
-        #count-container {
-            margin-bottom: 50px;
-        }
-        
-        @media screen and (max-width: 1440px) {
-            #count-container {
-                margin-bottom: 40px;
-            }
-        }
-        
-        @media screen and (max-width: 540px) {
-            #count-container .row .col-sm {
-                margin-top: 20px;
-            }
-            #count-container {
-                margin-bottom: 70px;
-            }
-        }
-    </style>
+    <!-- Desktop CTA -->
+    <a class="nav-cta" href="#products">
+      EXPLORE
+      <span class="nav-arrow" aria-hidden="true">↗</span>
+    </a>
 
-    <!--======x====== end of main section ========x=====-->
+    <!-- Mobile menu -->
+    <button
+      class="nav-toggle"
+      type="button"
+      aria-label="Open navigation"
+      aria-controls="nav-links"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+    </button>
 
-
-
-    <!--======================= video =======================-->
-    <div class="image-container" id="load-video">
-        <img src="img/home/thumbnail.png" style="height: 100vh; width: 100%;" alt="">
-    </div>
-    <div id="play-video" style="display: relative; display:none;">
-        <div class="video-container" style=" background: black; height: 100vh; width: 100%; position: fixed; top:0; left: 0;">
-            <video id="my-video" style="height: 100vh; width: 100%;" controls controlsList="nodownload">
-                <source id="mp4"  src="video/home/combined-video.mp4" type="video/mp4">
-            </video>
+  </nav>
+</header>
+    <!-- CINEMATIC HERO -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-radar" aria-hidden="true"></div>
+      <div class="hero-shell">
+        <div class="hero-topline"><span class="hero-brand"><i></i> JOHNNETTE</span><span class="hero-division">UAS DIVISION</span></div>
+        <div class="hero-heading-block">
+          <div class="hero-eyebrow"><span></span>UNMANNED AERIAL SYSTEMS<span></span></div>
+          <h1 id="hero-heading" class="hero-title"><span>MAKING</span><span class="hero-outline">IMPOSSIBLE</span><span class="hero-red">POSSIBLE!</span></h1>
         </div>
-    </div>
-    <div id="close-video" class="fas fa-times" style="display: none; font-size: 25px; color: white; position: fixed; top: 40px; right: 40px;"></div>
+        <div class="hero-side hero-side-left" aria-label="Platform features"><span>24+ HR<br>ENDURANCE</span><span>MULTI-DOMAIN<br>ISR</span><span>MODULAR<br>PAYLOADS</span></div>
+        <div class="hero-side hero-side-right" aria-label="Platform features"><span>ENCRYPTED<br>DATALINK</span><span>AUTONOMOUS<br>RECOVERY</span><span>MISSION<br>READY</span></div>
+        <div class="hero-aircraft-stage">
+          <div class="hero-aircraft-halo" aria-hidden="true"></div>
+          <span class="hero-target hero-target-tl" aria-hidden="true"></span><span class="hero-target hero-target-tr" aria-hidden="true"></span><span class="hero-target hero-target-bl" aria-hidden="true"></span><span class="hero-target hero-target-br" aria-hidden="true"></span>
+          <img class="hero-aircraft" src="../img/latest-product-pics/jf4-front-v1.png" alt="Front view of the Johnnette JF-4 unmanned aircraft" fetchpriority="high">
+          <div class="hero-ground-glow" aria-hidden="true"></div>
+        </div>
+        <div class="hero-bottom">
+          <div class="hero-intro"><p>We design and build long-endurance unmanned aircraft that give operators clear situational awareness and dependable control, from launch to recovery.</p><a class="hero-cta-primary" href="#products">EXPLORE SYSTEMS <span aria-hidden="true">⟶</span></a></div>
+          <a class="hero-scroll" href="#products"><span></span>SCROLL</a>
+          <div class="hero-info"><div class="hero-info-top">JOHNNETTE <b>/</b> JF-4</div><div class="hero-info-drawing" aria-hidden="true"><span>JF—4</span><span class="hero-info-line"></span></div><div class="hero-info-bottom"><span>MEDIUM ALTITUDE<br>LONG ENDURANCE / MALE</span><span><i></i> JF-4</span></div></div>
+        </div>
+      </div>
+    </section>
 
-    <style>
-        .image-container {
-            margin-top: 70px;
-            margin-bottom: 130px;
-        }
-        
-        @media only screen and (max-width: 913px) and (min-width: 768px) and (max-height: 1369px) and (min-height: 1024px) {
-            .image-container {
-                margin-top: 50px;
-                margin-bottom: 40px;
-            }
-            .image-container img {
-                height: 100%!important;
-                width: 100%!important;
-            }
-        }
-        
-        @media screen and (max-width: 820px) and (min-width: 819px) and (max-height: 1180px) and (min-height: 1179px) {
-            .image-container {
-                margin-top: 50px;
-                margin-bottom: 40px;
-            }
-            .image-container img {
-                height: 100%!important;
-                width: 100%!important;
-            }
-        }
-        
-        @media screen and (max-width:768px) {
-            .image-container {
-                margin-top: 40px;
-                margin-bottom: 30px;
-            }
-            .image-container img {
-                height: 100%!important;
-                width: 100%!important;
-            }
-        }
-    </style>
-    <!--============x========== video ===========x===========-->
+<!-- =====================================================
+         PRODUCTS
+    ====================================================== -->
+
+    <section class="products-section" id="products">
+
+        <div class="products-container">
 
 
+            <!-- =================================================
+                 SECTION INTRO
+            ================================================== -->
+
+            <div class="products-header">
+
+                <div class="section-label">
+                    <span></span>
+                    OUR PRODUCTS
+                </div>
+
+                <h2>
+                    ADVANCED SYSTEMS.
+                    <strong>MISSION READY.</strong>
+                </h2>
+
+                <p>
+                    Explore our range of purpose-built defence
+                    systems engineered for demanding operational
+                    environments.
+                </p>
+
+            </div>
 
 
-    <!-- page footer link -->
-    <div id="footer"></div>
+
+            <!-- =================================================
+                 PRODUCT 01
+            ================================================== -->
+
+            <article class="product-showcase">
+
+                <div class="showcase-visual" data-product="LOITERING">
+
+                    <!-- =================================================
+                         GIANT BACKGROUND TYPOGRAPHY
+                    ================================================== -->
+
+                    <div class="background-word" aria-hidden="true">
+                        JOHNNETTE JF - 4
+                    </div>
 
 
-    <!-- javascript code -->
+                    <!-- =================================================
+                         TECHNICAL ACCENT
+                    ================================================== -->
+
+                    <!-- <div class="technical-line" aria-hidden="true"></div> -->
 
 
-<script>
-        const box = document.querySelectorAll('.box_container');
+                    <!-- =================================================
+                         PRODUCT IMAGE
+                    ================================================== -->
 
-        const boxObserver = new IntersectionObserver((entries) => {
-            const ON_SCRENN = 'on_screen'
-            entries.forEach(entry => {
-                const {
-                    isIntersecting,
-                    target
-                } = entry
+                    <img src="../img/latest-product-pics/jf4.png" alt="Johnnette JF-4 Loitering Munition"
+                        class="showcase-image product-01">
 
-                if (isIntersecting) {
-                    target.classList.add(ON_SCRENN)
-                    return true
-                }
-                target.classList.remove(ON_SCRENN)
-            })
-        }, {
-            threshold: 0.5,
-        })
 
-        box.forEach((box) => {
-            boxObserver.observe(box)
-        })
-    </script>
+                    <!-- =================================================
+                         BASIC PRODUCT HOTSPOTS — TEST VERSION
+                         Only Product 01 is interactive for now.
+                    ================================================== -->
 
+                    <div class="product-hotspots" aria-label="Product features">
+
+                        <button class="product-hotspot hotspot-camera" type="button" aria-label="Camera system"
+                            aria-pressed="false">
+                            <span class="hotspot-point" aria-hidden="true"></span>
+                            <span class="hotspot-connector" aria-hidden="true"></span>
+                            <span class="hotspot-label">CAMERA SYSTEM</span>
+                        </button>
+
+                        <button class="product-hotspot hotspot-propulsion" type="button" aria-label="Propulsion system"
+                            aria-pressed="false">
+                            <span class="hotspot-point" aria-hidden="true"></span>
+                            <span class="hotspot-connector" aria-hidden="true"></span>
+                            <span class="hotspot-label">PROPULSION</span>
+                        </button>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         PRODUCT NUMBER
+                    ================================================== -->
+
+                    <div class="product-number">
+                        01
+                    </div>
+
+
+                    <!-- =================================================
+                         TECHNICAL LABEL
+                    ================================================== -->
+
+                    <div class="visual-label">
+                        LM SERIES
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     PRODUCT INFORMATION
+                ================================================== -->
+
+                <div class="showcase-content">
+
+
+                    <!-- PRODUCT NAME -->
+
+                    <div class="content-left">
+
+                        <span class="product-category">
+                            LOITERING MUNITION
+                        </span>
+
+                        <h2>
+                            JOHNNETTE
+                            <strong>JF - 4</strong>
+                        </h2>
+
+                    </div>
+
+
+                    <!-- PRODUCT DESCRIPTION -->
+
+                    <div class="content-middle">
+
+                        <p class="product-description">
+                            Johnnette JF-4 is a Medium Altitude
+                            Long Endurance strategic Unmanned
+                            Combat Aerial Vehicle (UCAV) capable
+                            of conducting operations that are
+                            performed with fighter jets.
+                        </p>
+
+                    </div>
+
+
+                    <!-- DETAILS SOON -->
+
+                    <div class="content-right">
+
+                        <span class="know-more" aria-label="Product details coming soon">
+
+                            <span>
+                                DETAILS SOON
+                            </span>
+
+                            <span class="arrow">
+                                →
+                            </span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 PRODUCT 02
+            ================================================== -->
+
+            <article class="product-showcase">
+
+                <div class="showcase-visual" data-product="ADVANCED">
+
+                    <!-- Giant background typography -->
+
+                    <div class="background-word" aria-hidden="true">
+                        ADVANCED
+                    </div>
+
+
+                    <!-- Technical accent -->
+
+                    <!-- <div class="technical-line" aria-hidden="true"></div> -->
+
+
+                    <!-- Product image -->
+
+                    <img src="images/product-2.png" alt="Advanced Defence System" class="showcase-image product-02">
+
+
+                    <!-- Product number -->
+
+                    <div class="product-number">
+                        02
+                    </div>
+
+
+                    <!-- Technical label -->
+
+                    <div class="visual-label">
+                        SYSTEM SERIES
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     PRODUCT INFORMATION
+                ================================================== -->
+
+                <div class="showcase-content">
+
+
+                    <!-- PRODUCT NAME -->
+
+                    <div class="content-left">
+
+                        <span class="product-category">
+                            ADVANCED SYSTEM
+                        </span>
+
+                        <h2>
+                            ADVANCED
+                            <strong>SYSTEMS</strong>
+                        </h2>
+
+                    </div>
+
+
+                    <!-- PRODUCT DESCRIPTION -->
+
+                    <div class="content-middle">
+
+                        <p class="product-description">
+                            Advanced defence technology developed
+                            to deliver dependable performance,
+                            operational flexibility and enhanced
+                            mission capability.
+                        </p>
+
+                    </div>
+
+
+                    <!-- DETAILS SOON -->
+
+                    <div class="content-right">
+
+                        <span class="know-more" aria-label="Product details coming soon">
+
+                            <span>
+                                DETAILS SOON
+                            </span>
+
+                            <span class="arrow">
+                                →
+                            </span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 PRODUCT 03
+            ================================================== -->
+
+            <article class="product-showcase">
+
+                <div class="showcase-visual" data-product="MISSION">
+
+                    <!-- Giant background typography -->
+
+                    <div class="background-word" aria-hidden="true">
+                        MISSION
+                    </div>
+
+
+                    <!-- Technical accent -->
+
+                    <!-- <div class="technical-line" aria-hidden="true"></div> -->
+
+
+                    <!-- Product image -->
+
+                    <img src="images/product-3.png" alt="Mission Defence Platform" class="showcase-image product-03">
+
+
+                    <!-- Product number -->
+
+                    <div class="product-number">
+                        03
+                    </div>
+
+
+                    <!-- Technical label -->
+
+                    <div class="visual-label">
+                        PLATFORM SERIES
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     PRODUCT INFORMATION
+                ================================================== -->
+
+                <div class="showcase-content">
+
+
+                    <!-- PRODUCT NAME -->
+
+                    <div class="content-left">
+
+                        <span class="product-category">
+                            DEFENCE PLATFORM
+                        </span>
+
+                        <h2>
+                            MISSION
+                            <strong>PLATFORMS</strong>
+                        </h2>
+
+                    </div>
+
+
+                    <!-- PRODUCT DESCRIPTION -->
+
+                    <div class="content-middle">
+
+                        <p class="product-description">
+                            High-performance platforms engineered
+                            for reliability, flexibility and
+                            demanding operational requirements.
+                        </p>
+
+                    </div>
+
+
+                    <!-- DETAILS SOON -->
+
+                    <div class="content-right">
+
+                        <span class="know-more" aria-label="Product details coming soon">
+
+                            <span>
+                                DETAILS SOON
+                            </span>
+
+                            <span class="arrow">
+                                →
+                            </span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Product hotspot interaction -->
     <script>
-        function animate(obj, initVal, lastVal, duration, inc) {
-            let startTime = null;
-
-            //get the current timestamp and assign it to the currentTime variable
-            let currentTime = Date.now();
-
-            //pass the current timestamp to the step function
-            const step = (currentTime) => {
-
-                //if the start time is null, assign the current time to startTime
-                if (!startTime) {
-                    startTime = currentTime;
-                }
-
-                //calculate the value to be used in calculating the number to be displayed
-                const progress = Math.min((currentTime - startTime) / duration, 1);
-
-                //calculate what to be displayed using the value gotten above
-                obj.innerHTML = Math.floor(progress * (lastVal - initVal) + initVal);
-
-                // obj.innerHTML += "+";
-
-                //checking to make sure the counter does not exceed the last value (lastVal)
-                if (progress < 1) {
-                    window.requestAnimationFrame(step);
-                } else {
-                    // Following inc condition was added by Sahil
-                    // for the purpose of adding a plus symbol if the exact number value is not confirmed.
-                    if (inc === true){
-                        obj.innerHTML += "+";
-                    }
-                    window.cancelAnimationFrame(window.requestAnimationFrame(step));
-                }
-            };
-            //start animating
-            window.requestAnimationFrame(step);
-        }
-        let text1 = document.getElementById('0101');
-        let text2 = document.getElementById('0102');
-        let text3 = document.getElementById('0103');
-        let text4 = document.getElementById('0104');
-        const load = () => {
-            animate(text1, 0, 700, 4000, true);
-            animate(text2, 0, 4, 4000,false);
-            animate(text3, 0, 3500, 4000,false);
-            animate(text4, 0, 44, 4000,false);
-        }
-    </script>
-
-    <script>
-        let load2 = document.querySelector("#load-video");
-        let play = document.querySelector('#play-video');
-        let closed = document.querySelector("#close-video");
-        let video = document.querySelector("#my-video");
-        let head = document.querySelector("#header");
-
-        load2.onclick = () => {
-            play.style.display = "block";
-            closed.style.display = "block";
-            head.style.visibility = "hidden";
-            play.style.zIndex = "10000000000000";
-            closed.style.zIndex = "100000000000";
-            video.currentTime = 0;
-            video.play();
-        }
-        closed.onclick = () => {
-            closed.style.display = "none";
-            play.style.display = "none";
-            head.style.visibility = "visible";
-            video.pause();
-        }
-    </script>
-
-    <script>
-        // Check if service worker is available. 
-        if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/serviceWorker.js').then(function(registration) {
-            console.log('SW registration succeeded with scope:', registration.scope);
-        }).catch(function(e) {
-            console.log('SW registration failed with error:', e);
+        document.querySelectorAll('.product-hotspot').forEach(button => {
+            button.addEventListener('click', () => {
+                const active = button.getAttribute('aria-pressed') === 'true';
+                button.closest('.product-hotspots').querySelectorAll('.product-hotspot').forEach(item => {
+                    item.setAttribute('aria-pressed', 'false');
+                    item.classList.remove('is-active');
+                });
+                button.setAttribute('aria-pressed', String(!active));
+                button.classList.toggle('is-active', !active);
+            });
         });
-        }
     </script>
 
 </body>
 
 </html>
-
-</html>
-
-
-
-<!-- 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 -->
