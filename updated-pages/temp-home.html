@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Johnnette | Unmanned Aerial Systems</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="temp-home.css">
+</head>
+
+<body>
+    
+<header class="site-header" id="site-header">
+  <nav class="site-nav" aria-label="Main navigation">
+
+    <!-- Brand -->
+    <a class="nav-logo" href="#hero" aria-label="Johnnette home">
+      <span class="nav-logo-mark" aria-hidden="true"></span>
+      <span>
+        JOHNNETTE
+        <small>UNMANNED SYSTEMS</small>
+      </span>
+    </a>
+
+    <!-- Navigation -->
+    <div class="nav-links" id="nav-links">
+      <a class="nav-link is-current" href="#hero">HOME</a>
+
+      <!-- Products / Categories -->
+      <div class="nav-category" id="nav-category">
+        <button
+          class="nav-link nav-category-trigger"
+          id="products-trigger"
+          type="button"
+          aria-expanded="false"
+          aria-controls="products-menu"
+          aria-haspopup="true"
+        >
+          PRODUCTS
+          <span class="nav-chevron" aria-hidden="true"></span>
+        </button>
+
+        <div class="systems-menu" id="products-menu">
+          <div class="systems-menu-inner">
+
+            <div class="systems-menu-intro">
+              <span class="nav-overline">
+                JOHNNETTE / PRODUCT DIRECTORY
+              </span>
+
+              <h2>
+                OUR<br>
+                <em>PLATFORMS.</em>
+              </h2>
+
+              <p>
+                Explore our unmanned systems by mission category.
+              </p>
+
+              <a href="#products" class="systems-all">
+                VIEW ALL PRODUCTS <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+
+            <div class="systems-menu-categories">
+
+              <!-- Loitering Munition -->
+              <div class="systems-category-card">
+                <span class="category-index">01 / CATEGORY</span>
+
+                <h3 class="category-name">
+                  LOITERING<br>MUNITION
+                </h3>
+
+                <p class="category-description">
+                  Explore our loitering munition platforms.
+                </p>
+
+                <div class="category-products">
+                  <a href="#jf4" class="category-product-link">
+                    <span>JF-4</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Surveillance -->
+              <div class="systems-category-card systems-category-upcoming">
+                <span class="category-index">02 / CATEGORY</span>
+
+                <h3 class="category-name">
+                  SURVEILLANCE
+                </h3>
+
+                <p class="category-description">
+                  Surveillance platforms and mission systems.
+                </p>
+
+                <span class="category-bottom">
+                  CATALOGUE COMING SOON
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="nav-link" href="#mission">OUR MISSION</a>
+    </div>
+
+    <!-- Desktop CTA -->
+    <a class="nav-cta" href="#products">
+      EXPLORE
+      <span class="nav-arrow" aria-hidden="true">↗</span>
+    </a>
+
+    <!-- Mobile menu -->
+    <button
+      class="nav-toggle"
+      type="button"
+      aria-label="Open navigation"
+      aria-controls="nav-links"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+  </nav>
+</header>
+    <!-- CINEMATIC HERO -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-radar" aria-hidden="true"></div>
+      <div class="hero-shell">
+        <div class="hero-topline"><span class="hero-brand"><i></i> JOHNNETTE</span><span class="hero-division">UAS DIVISION</span></div>
+        <div class="hero-heading-block">
+          <div class="hero-eyebrow"><span></span>UNMANNED AERIAL SYSTEMS<span></span></div>
+          <h1 id="hero-heading" class="hero-title"><span>MAKING</span><span class="hero-outline">IMPOSSIBLE</span><span class="hero-red">POSSIBLE!</span></h1>
+        </div>
+        <div class="hero-side hero-side-left" aria-label="Platform features"><span>24+ HR<br>ENDURANCE</span><span>MULTI-DOMAIN<br>ISR</span><span>MODULAR<br>PAYLOADS</span></div>
+        <div class="hero-side hero-side-right" aria-label="Platform features"><span>ENCRYPTED<br>DATALINK</span><span>AUTONOMOUS<br>RECOVERY</span><span>MISSION<br>READY</span></div>
+        <div class="hero-aircraft-stage">
+          <div class="hero-aircraft-halo" aria-hidden="true"></div>
+          <span class="hero-target hero-target-tl" aria-hidden="true"></span><span class="hero-target hero-target-tr" aria-hidden="true"></span><span class="hero-target hero-target-bl" aria-hidden="true"></span><span class="hero-target hero-target-br" aria-hidden="true"></span>
+          <img class="hero-aircraft" src="../img/latest-product-pics/jf4-front-v1.png" alt="Front view of the Johnnette JF-4 unmanned aircraft" fetchpriority="high">
+          <div class="hero-ground-glow" aria-hidden="true"></div>
+        </div>
+        <div class="hero-bottom">
+          <div class="hero-intro"><p>We design and build long-endurance unmanned aircraft that give operators clear situational awareness and dependable control, from launch to recovery.</p><a class="hero-cta-primary" href="#products">EXPLORE SYSTEMS <span aria-hidden="true">⟶</span></a></div>
+          <a class="hero-scroll" href="#products"><span></span>SCROLL</a>
+          <div class="hero-info"><div class="hero-info-top">JOHNNETTE <b>/</b> JF-4</div><div class="hero-info-drawing" aria-hidden="true"><span>JF—4</span><span class="hero-info-line"></span></div><div class="hero-info-bottom"><span>MEDIUM ALTITUDE<br>LONG ENDURANCE / MALE</span><span><i></i> JF-4</span></div></div>
+        </div>
+      </div>
+    </section>
+
+<!-- =====================================================
+         PRODUCTS
+    ====================================================== -->
+
+    <section class="products-section" id="products">
+
+        <div class="products-container">
+
+
+            <!-- =================================================
+                 SECTION INTRO
+            ================================================== -->
+
+            <div class="products-header">
+
+                <div class="section-label">
+                    <span></span>
+                    OUR PRODUCTS
+                </div>
+
+                <h2>
+                    ADVANCED SYSTEMS.
+                    <strong>MISSION READY.</strong>
+                </h2>
+
+                <p>
+                    Explore our range of purpose-built defence
+                    systems engineered for demanding operational
+                    environments.
+                </p>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 PRODUCT 01
+            ================================================== -->
+
+            <article class="product-showcase">
+
+                <div class="showcase-visual" data-product="LOITERING">
+
+                    <!-- =================================================
+                         GIANT BACKGROUND TYPOGRAPHY
+                    ================================================== -->
+
+                    <div class="background-word" aria-hidden="true">
+                        JOHNNETTE JF - 4
+                    </div>
+
+
+                    <!-- =================================================
+                         TECHNICAL ACCENT
+                    ================================================== -->
+
+                    <!-- <div class="technical-line" aria-hidden="true"></div> -->
+
+
+                    <!-- =================================================
+                         PRODUCT IMAGE
+                    ================================================== -->
+
+                    <img src="../img/latest-product-pics/jf4.png" alt="Johnnette JF-4 Loitering Munition"
+                        class="showcase-image product-01">
+
+
+                    <!-- =================================================
+                         BASIC PRODUCT HOTSPOTS — TEST VERSION
+                         Only Product 01 is interactive for now.
+                    ================================================== -->
+
+                    <div class="product-hotspots" aria-label="Product features">
+
+                        <button class="product-hotspot hotspot-camera" type="button" aria-label="Camera system"
+                            aria-pressed="false">
+                            <span class="hotspot-point" aria-hidden="true"></span>
+                            <span class="hotspot-connector" aria-hidden="true"></span>
+                            <span class="hotspot-label">CAMERA SYSTEM</span>
+                        </button>
+
+                        <button class="product-hotspot hotspot-propulsion" type="button" aria-label="Propulsion system"
+                            aria-pressed="false">
+                            <span class="hotspot-point" aria-hidden="true"></span>
+                            <span class="hotspot-connector" aria-hidden="true"></span>
+                            <span class="hotspot-label">PROPULSION</span>
+                        </button>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         PRODUCT NUMBER
+                    ================================================== -->
+
+                    <div class="product-number">
+                        01
+                    </div>
+
+
+                    <!-- =================================================
+                         TECHNICAL LABEL
+                    ================================================== -->
+
+                    <div class="visual-label">
+                        LM SERIES
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     PRODUCT INFORMATION
+                ================================================== -->
+
+                <div class="showcase-content">
+
+
+                    <!-- PRODUCT NAME -->
+
+                    <div class="content-left">
+
+                        <span class="product-category">
+                            LOITERING MUNITION
+                        </span>
+
+                        <h2>
+                            JOHNNETTE
+                            <strong>JF - 4</strong>
+                        </h2>
+
+                    </div>
+
+
+                    <!-- PRODUCT DESCRIPTION -->
+
+                    <div class="content-middle">
+
+                        <p class="product-description">
+                            Johnnette JF-4 is a Medium Altitude
+                            Long Endurance strategic Unmanned
+                            Combat Aerial Vehicle (UCAV) capable
+                            of conducting operations that are
+                            performed with fighter jets.
+                        </p>
+
+                    </div>
+
+
+                    <!-- DETAILS SOON -->
+
+                    <div class="content-right">
+
+                        <span class="know-more" aria-label="Product details coming soon">
+
+                            <span>
+                                DETAILS SOON
+                            </span>
+
+                            <span class="arrow">
+                                →
+                            </span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 PRODUCT 02
+            ================================================== -->
+
+            <article class="product-showcase">
+
+                <div class="showcase-visual" data-product="ADVANCED">
+
+                    <!-- Giant background typography -->
+
+                    <div class="background-word" aria-hidden="true">
+                        ADVANCED
+                    </div>
+
+
+                    <!-- Technical accent -->
+
+                    <!-- <div class="technical-line" aria-hidden="true"></div> -->
+
+
+                    <!-- Product image -->
+
+                    <img src="images/product-2.png" alt="Advanced Defence System" class="showcase-image product-02">
+
+
+                    <!-- Product number -->
+
+                    <div class="product-number">
+                        02
+                    </div>
+
+
+                    <!-- Technical label -->
+
+                    <div class="visual-label">
+                        SYSTEM SERIES
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     PRODUCT INFORMATION
+                ================================================== -->
+
+                <div class="showcase-content">
+
+
+                    <!-- PRODUCT NAME -->
+
+                    <div class="content-left">
+
+                        <span class="product-category">
+                            ADVANCED SYSTEM
+                        </span>
+
+                        <h2>
+                            ADVANCED
+                            <strong>SYSTEMS</strong>
+                        </h2>
+
+                    </div>
+
+
+                    <!-- PRODUCT DESCRIPTION -->
+
+                    <div class="content-middle">
+
+                        <p class="product-description">
+                            Advanced defence technology developed
+                            to deliver dependable performance,
+                            operational flexibility and enhanced
+                            mission capability.
+                        </p>
+
+                    </div>
+
+
+                    <!-- DETAILS SOON -->
+
+                    <div class="content-right">
+
+                        <span class="know-more" aria-label="Product details coming soon">
+
+                            <span>
+                                DETAILS SOON
+                            </span>
+
+                            <span class="arrow">
+                                →
+                            </span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+                 PRODUCT 03
+            ================================================== -->
+
+            <article class="product-showcase">
+
+                <div class="showcase-visual" data-product="MISSION">
+
+                    <!-- Giant background typography -->
+
+                    <div class="background-word" aria-hidden="true">
+                        MISSION
+                    </div>
+
+
+                    <!-- Technical accent -->
+
+                    <!-- <div class="technical-line" aria-hidden="true"></div> -->
+
+
+                    <!-- Product image -->
+
+                    <img src="images/product-3.png" alt="Mission Defence Platform" class="showcase-image product-03">
+
+
+                    <!-- Product number -->
+
+                    <div class="product-number">
+                        03
+                    </div>
+
+
+                    <!-- Technical label -->
+
+                    <div class="visual-label">
+                        PLATFORM SERIES
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     PRODUCT INFORMATION
+                ================================================== -->
+
+                <div class="showcase-content">
+
+
+                    <!-- PRODUCT NAME -->
+
+                    <div class="content-left">
+
+                        <span class="product-category">
+                            DEFENCE PLATFORM
+                        </span>
+
+                        <h2>
+                            MISSION
+                            <strong>PLATFORMS</strong>
+                        </h2>
+
+                    </div>
+
+
+                    <!-- PRODUCT DESCRIPTION -->
+
+                    <div class="content-middle">
+
+                        <p class="product-description">
+                            High-performance platforms engineered
+                            for reliability, flexibility and
+                            demanding operational requirements.
+                        </p>
+
+                    </div>
+
+
+                    <!-- DETAILS SOON -->
+
+                    <div class="content-right">
+
+                        <span class="know-more" aria-label="Product details coming soon">
+
+                            <span>
+                                DETAILS SOON
+                            </span>
+
+                            <span class="arrow">
+                                →
+                            </span>
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Product hotspot interaction -->
+    <script>
+        document.querySelectorAll('.product-hotspot').forEach(button => {
+            button.addEventListener('click', () => {
+                const active = button.getAttribute('aria-pressed') === 'true';
+                button.closest('.product-hotspots').querySelectorAll('.product-hotspot').forEach(item => {
+                    item.setAttribute('aria-pressed', 'false');
+                    item.classList.remove('is-active');
+                });
+                button.setAttribute('aria-pressed', String(!active));
+                button.classList.toggle('is-active', !active);
+            });
+        });
+    </script>
+
+</body>
+
+</html>

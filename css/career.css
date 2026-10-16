@@ -1,0 +1,1075 @@
+/* head_banner */
+
+.head_banner {
+    width: 100%;
+    height: 100vh;
+}
+
+.head_banner .background_img {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/career/banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: relative;
+}
+
+.banner_text {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(14, 13, 13, 0.5);
+}
+
+.banner_text h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner_text p {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+
+/* head_banner end*/
+
+
+/* @media screen and (max-width: 1300px) {
+    .job,
+    .job2 {
+        padding: 20px;
+    }
+    .role-text{
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .job,
+    .job2 {
+        padding: 50px;
+    }
+    .containerr,
+    .containerr2 {
+        flex-direction: column;
+    }
+    .containerr .jobInfo,
+    .containerr2 .jobInfo {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .jobImg {
+        width: 100%;
+    }
+    .containerr .jobInfo,
+    .containerr .jobImg,
+    .containerr2 .jobInfo,
+    .containerr2 .jobImg {
+        width: 100%;
+    }
+    .containerr .jobInfo {
+        order: 2;
+    }
+    .containerr .jobImg {
+        order: 1;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .head_banner .background_img {
+        height: 100vh;
+        width: 100%;
+        background-image: url(../img/career/banner2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 49% center;
+        position: relative;
+    }
+    .banner_text h1 {
+        font-size: 40px;
+    }
+    .banner_text p {
+        font-size: 18px;
+        max-width: 650px;
+    }
+}
+
+
+.job,
+.job2 {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.job .content,
+.job2 .content {
+    text-align: center;
+    color: #fff;
+}
+
+.job .content h2,
+.job2 .content h2 {
+    font-size: 46px;
+    font-weight: 500;
+    color: white;
+}
+
+.containerr {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.job2 .containerr2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.containerr .jobInfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.containerr2 .jobInfo {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.containerr .jobInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.containerr2 .jobInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.containerr .jobInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.containerr2 .jobInfo .box .text {
+    display: flex;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.containerr .jobInfo .box .text h4,
+.containerr2 .jobInfo .box .text h4 {
+    color: white;
+}
+
+.containerr .jobInfo .box .text h3,
+.containerr2 .jobInfo .box .text h3 {
+    font-weight: 500;
+    font-size: 23px;
+    color: white;
+}
+
+.jobImg {
+    width: 50%;
+    width: 45%;
+    padding: 40px;
+    background: #fff;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .job,
+    .job2 {
+        padding: 10px;
+    }
+    .job .content h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .job,
+    .job2 {
+        padding: 0px;
+    }
+} */
+
+
+
+
+
+
+    /*>>>>>>>>>>>>>>>>>>>> new css from asr<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+   .new-banner{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../img/career/back6.jpeg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    /* opacity: 0.85; */
+
+    display: flex;
+    flex-direction: column;      /* stack items vertically */
+    justify-content: flex-start; /* start from top */
+    align-items: center;         /* center horizontally */
+    padding-top: 180px;          /* move H1 down a bit */
+}
+
+/* CENTERED HEADING */
+.new-banner h1{
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;         /* spacing for slider */
+    z-index: 10;
+}
+    /* .main-banner{
+        width: 100%;
+        display: flex;
+    }
+    .banner1, .banner2, .banner3, .banner4{
+        width: 50%;
+        height: 50vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+    .banner1{
+        background-image: url("../img/career/1.png");
+    }
+    .banner2{
+        background-image: url("../img/career/2.png");
+    }
+    .banner3{
+        background-image: url("../img/career/3.png");
+    }
+    .banner4{
+        background-image: url("../img/career/4.png");
+    } */
+
+
+
+
+/* --- Animation Styles (No change needed for responsiveness) --- */
+.career-page-box {
+    opacity: 0;
+    transform: translateY(150px);
+    transition: opacity 0.8s, transform 1s; 
+}
+.visible2 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* --- HEADER STYLES (Slight adjustment for smaller screen font) --- */
+.header-join {
+    background-color: #ffffff; 
+    padding: 60px 5% 40px 5%; /* Added horizontal padding */
+    font-family: 'Arial Black', sans-serif; 
+    font-size: 36px;
+    color: #333333; 
+    text-align: center;
+}
+
+/* --- BOX CONTAINER STYLES (Key responsive changes here) --- */
+.career-outer-box {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /* Allow items to wrap to the next line */
+    flex-wrap: wrap; 
+    /* Use space-around/space-evenly to manage horizontal spacing when wrapping */
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 30px; 
+    padding: 0px 5% 80px 5%; 
+    max-width: 100%;
+    margin: 0 auto; 
+}
+
+/* --- INDIVIDUAL BOX STYLES (Key responsive changes here) --- */
+.career-box {
+    /* REMOVED: width: 20%; - Using flex-basis instead */
+    /* REMOVED: min-width: 343px; - Moved to media query */
+    flex-basis: 343px; /* Defines the desired size before stretching/shrinking */
+    flex-grow: 1; /* Allows the box to grow to fill space if available */
+    /* Ensures the boxes never get too small, but allows them to shrink below 343px on very small screens */
+    min-width: 280px; 
+    
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 0 0 1px #a54a4a, 0 0 15px rgba(165, 74, 74, 0.5);
+}
+
+.career-box:hover {
+    /* Combined hover styles for cleaner code */
+    transform: translateY(-5px) scale(1.02); 
+    box-shadow: 0 0 0 2px #a54a4a, 0 0 25px rgba(165, 74, 74, 0.7), 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* --- TEXT STYLES (No change needed for responsiveness) --- */
+.career-card-text {
+    font-size: 20px; 
+    font-family: 'Helvetica Neue', Arial, sans-serif; 
+    color: #444444; 
+    font-weight: 500; 
+}
+
+/* ================================================= */
+/* --- MEDIA QUERIES FOR SMALLER SCREENS --- */
+/* ================================================= */
+
+/* Tablet/Small Desktop (e.g., up to 1024px) */
+@media (max-width: 1024px) {
+    .header-join {
+        font-size: 32px;
+    }
+    
+}
+
+/* Mobile Devices (e.g., up to 600px) */
+@media (max-width: 600px) {
+    .header-join {
+        font-size: 28px;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .career-outer-box {
+        padding-bottom: 50px;
+    }
+    .career-box {
+        /* On small screens, force the box to take up almost the full width (minus padding) */
+        flex-basis: 90%; 
+    }
+}
+
+
+
+    
+  /* .Featured-roles {
+    font-family: D Din;
+    background-image: url('../img/career/Featuredback2.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #fff; 
+    margin: 0px;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+} */
+
+
+/* --- 1. New Container for Video and Content --- */
+.Featured-roles-container {
+    position: relative; 
+    width: 100%;
+    height: 235px; 
+    overflow: hidden; 
+    margin: 0px;
+}
+
+/* --- 2. Video Styling (The background layer) --- */
+.featured-roles-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    
+    z-index: 1; 
+    object-fit: cover; 
+}
+
+/* --- 3. Content Styling (Your original styles, slightly modified) --- */
+.Featured-roles-content {
+    
+    position: relative; 
+    z-index: 2; 
+
+   
+    font-family: D Din;
+    color: #fff;
+    text-align: center;
+    padding: 111px 0px 50px 0px;
+    margin: 0; 
+}
+
+/* Ensure the span styling stays the same */
+.Featured-roles-content span {
+    border-bottom: 2px solid red;
+}
+
+
+
+
+
+    /*>>>>>>>>>>>>>>>>>>> job section css starts <<<<<<<<<<<<<<<<<<*/
+    .job-box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .container-box{
+        width: 70%;
+        background-color: white;
+        padding: 15px 0px 15px 0px;
+        border-radius: 15px;
+        box-shadow: 10px 5px 5px rgb(255, 0, 0);
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
+    .container-box h3{
+        font-size: 30px;
+        color: #000000;
+        padding-left: 30px;
+        margin: 5px 0px 15px 0px;
+    }
+    .span-des{
+        font-size: 18px;
+        font-family: d-din;
+        padding-left: 24px;
+    }
+    .span-des img{
+        padding-right: 7px;
+        margin-bottom: 6px;
+    }
+    
+    .container-box h4{
+        font-size: 25px;
+        font-family: 'D-DIN Exp', sans-serif;
+        color: #000000;
+        padding-left: 30px;
+    }
+    
+    .role-text{
+        font-size: 16px;
+        padding-left: 31px;
+        font-family: D-DIN;
+        width: 89%;
+        text-align: justify;
+    }
+    
+    .container-box ul{
+        padding-left: 60px;
+        
+    }
+    .container-box ul li{
+        font-size: 16px;
+        padding-left: px;
+        font-family: D-DIN;
+        padding-left: 10px;
+    }
+    
+    .p-lower{
+        font-size: 18px;
+        /* padding-left: 50px; */
+        padding-left: 30px;
+    }
+    
+    hr:not([size]) {
+        height: 1px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    
+    @media only screen and (min-width: 2560px){
+        .slide p {
+    font-size: 2.5rem !important;
+        }
+        .slide h3 {
+    font-size: 3.15rem !important;
+        }
+        .slide {
+    min-width: 616px !important;
+    max-width: 377px !important;
+    height: 587px !important;
+        }
+        .slider-wrapper {
+            margin-top: 910px !important;
+        }
+        .job-btn {
+        padding: 20px 30px !important; 
+        font-size: 24px !important;   
+        border-radius: 8px !important; 
+       
+        
+    }
+
+    /* 2. Optional: Ensure the entire card scales nicely */
+    .job-card {
+        padding: 30px; 
+    }
+
+    }
+    
+    /* mediaquery started asr */
+    @media only screen and (min-width: 1980px){
+        .header-join h1{
+            font-size: 40px;
+        }
+        .container-box{
+            padding-right: 10px;
+        }
+        .career-outer-box{
+            padding: 0px 360px 60px 360px;
+        }
+        .career-card-text{
+            font-size: 32px;
+        }
+        .career-box {
+            width: 17%;
+            height: 136px;
+        justify-content: center;
+        }
+        .container-box h3 {
+            font-size: 40px;
+        }
+        .span-des{
+            font-size: 24px;
+        }
+        .span-des img{
+            width: 30px;
+        }
+        
+    }
+
+    
+    @media only screen and (max-width: 1920px){
+        .career-box {
+            width: 18%;
+        }
+    }
+    @media only screen and (max-width:1500px){
+        .career-box{
+            width: 20%;
+        }
+    }
+    
+    @media only screen and (max-width:1370px){
+        .career-card-text{
+            font-size: 20px;
+        }
+        .career-box {
+            width: 20%;
+        }
+        .role-text{
+            width: 98%;
+            font-size: 16px;
+        }
+        h1{
+            font-size: 65px;
+        }
+    }
+    
+    @media only screen and (max-width:1280px){
+        .new-banner{
+            margin-bottom: 40px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        .career-outer-box{
+            padding: 0px 100px 60px 100px;
+        }
+        .career-box{
+            width: 17%;
+        }
+        .banner-text{
+            margin-bottom: 40px;
+        }
+        .banner-text p {
+            width: 71%;
+        }
+        .career-card-text {
+            font-size: 23px;
+        }
+        hr:not([size]) {
+            margin-top: 7px;
+        }
+        .span-des{
+            padding-left: 25px;
+        }
+        .container-box h3{
+            margin: 5px 0px 12px 0px;
+        }
+    }
+    
+    @media only screen and (max-width:1024px){
+        .career-box {
+            width: 20%;
+            height: 75px;
+            padding: 20px 8px;
+        }
+        .career-card-text{
+            font-size: 20px;
+        }
+        .span-des{
+            padding-left: 25px;
+        }
+        .Featured-roles-container{
+            height: 142px;
+        }
+        .Featured-roles-content{
+            padding: 66px 0px 50px 0px;
+        }
+    }
+    
+    @media only screen and (max-width: 820px){
+        .new-banner{
+            height: 50vh;
+            margin-bottom: 0px;
+        }
+        .container-box{
+            width: 85%;
+        }
+        .career-outer-box{
+            padding: 0px 40px 40px 40px;
+        }
+        .container-box h4{
+            padding-left: 30px;
+        }
+        .container-box ul{
+            padding-left: 80px;
+        }
+        .career-card-text{
+            font-size: 17px;
+        }
+    }
+    
+    @media only screen and (max-width: 768px){
+        .career-box{
+            width: 20%;
+            height: 70px;
+            justify-content: center;
+            padding: 0;
+        }
+        .career-card-text{
+            font-size: 19px;
+        }
+        .container-box h3{
+            padding-left: 20px;
+            font-size: 26px;
+        }
+        .span-des{
+            padding-left: 15px;
+            display: block;
+        }
+        h1{
+            font-size: 35px;
+        }
+        .container-box h4{
+            padding-left: 20px;
+        }
+        .container-box ul{
+            padding-left: 60px;
+        }
+        .p-lower{
+            padding-left: 20px;
+        }
+        .Featured-roles-content {
+            padding: 63px 0px 50px 0px;
+        }
+        .Featured-roles-container{
+            height: 134px;
+        }
+    }
+    @media only screen and (max-width :540px){
+        .header-join{
+            padding: 10px 0px;
+            display: none;
+        }
+        .career-outer-box{
+            display: none;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0px 50px 0px 50px;
+        }
+        .container-box h3 span{
+            border-bottom: 0 !important;
+            padding-bottom: 0 !important;
+        }
+        .career-box{
+            width: 35%;
+            margin: 15px;
+            height: 50px;
+        }
+        .role-text{
+            font-size: 16px;
+            padding-left: 10px;
+        }
+    }
+    
+    /*>>>>>>>>>>>>>>>>>>>>>>  For Mobile it Strated <<<<<<<<<<<<<<<<<<<<<< */
+    
+    @media only screen and (max-width: 430px){
+        .new-banner{
+        min-height: 25vh;
+        height: auto;
+
+        background-image: url("../img/career/back6_mbil.png"); 
+        
+        background-position: center center; 
+        
+        padding-top: 80px; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .new-banner h1 {
+        font-size: 30px !important;
+        margin-top: 90px !important;
+        
+        margin: 0; 
+        
+        text-align: center !important;
+        width: 100%;
+        padding: 0 10px;
+    }
+        .header-join{
+            padding: 10px 0px;
+            display: none;
+        }
+        .career-outer-box{
+            display: none;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0px 50px 0px 50px;
+        }
+        .career-box{
+            width: 35%;
+            margin: 15px;
+            height: 50px;
+        }
+        .Featured-roles{
+            padding: 25px 0px;
+        }
+        .container-box{
+            width: 94%;
+        }
+        .container-box h3{
+            font-size: 22px;
+            margin: 5px 0px 15px 0px;
+            padding-left: 10px;
+        }
+        .container-box h4{
+            padding-left: 10px;
+        }
+        .span-des {
+            padding-left: 6px;
+            font-size: 15px;
+        }
+        .container-box ul{
+            padding-left:35px;
+            padding-right: 10px;
+    
+        }
+        .container-box ul li {
+            padding-left: 0px;
+        }
+        .p-lower{
+            padding-left: 10px;
+            font-size: 15px;
+        }
+        .Featured-roles-content {
+            padding: 72px 0px 50px 0px;
+        }
+        .Featured-roles-container {
+            height: 143px;
+        }
+    }
+    
+    @media only screen and (max-width: 375px)
+    {
+        .career-box{
+            height: 70px;
+        }    
+        .span-des{
+            font-size: 13px;
+        }
+        .p-lower{
+            padding-left: 7px;
+            font-size: 17px;
+        }
+    }
+    
+    @media only screen and (max-width: 280px){
+        .header-join h1{
+            font-size: 30px;
+        }
+        .career-outer-box{
+            padding: 0 10px;
+        }
+        .span-des{
+            font-size: 10px;
+        }
+        .container-box h3 {
+            padding-left: 4px;
+            font-size: 17px;
+        }
+        .span-des{
+            padding-left: 4px;
+        }
+        .span-des img{
+            width: 16px;
+        }
+        .container-box h4 {
+            font-size: 20px;
+            padding-left: 4px;
+        }
+        .container-box ul{
+            padding-left: 25px;
+        }
+        .container-box ul li{
+            font-size: 13px;
+        }
+        .p-lower{
+            padding-left: 7px;
+            font-size: 14px;
+        }
+    
+    }
+    
+
+
+    /* job description */
+
+    .job-description {
+        background: #f9f9f9; 
+        /* border-left: 4px solid #d32f2f;  */
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+     
+    }
+
+    .job-description h4 {
+        color: black;
+        font-size: 20px !important;
+        margin-bottom: 10px;
+        font-weight: 700;
+        margin-left: -20px;
+    }
+
+    .job-description p {
+        margin-left: 12px;
+        font-size: 16px !important;
+        line-height: 1.6;
+        color: #333;
+    }
+
+
+
+/* SLIDE STYLE AND INFINITE */
+
+
+
+/* --- Slider Container Styling --- */
+.slider-wrapper {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    /* Subtle fade effect at the edges */
+    mask-image: linear-gradient(to right, transparent 2%, white 15%, white 85%, transparent 98%);
+    margin-top: 236px;
+}
+
+.page-wrapper {
+    padding: 20px 0;
+}
+
+/* --- Slide Track (Animation) --- */
+.slide-track {
+    display: flex;
+    gap: 100px; 
+    width: max-content; 
+    animation: scroll 30s linear infinite; 
+}
+
+.slider-wrapper:hover .slide-track {
+    animation-play-state: paused;
+}
+
+/* Define the horizontal scroll animation (required for the infinite loop) */
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    
+    100% { transform: translateX(calc(-50% - 50px)); } 
+}
+
+/* --- Individual Slide Styling (Job Card) --- */
+.slide {
+    background: rgba(30, 42, 56, 0.8); 
+    color: #f1f1f1; 
+    padding: 30px 25px;
+    border-radius: 8px; 
+    /* The original box-shadow was duplicated/overwritten, I've simplified it here */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-width: 420px; 
+    max-width: 330px;
+    
+ /* for  justify update by  ankit-singh 21-may */
+    display: flex;
+    flex-direction: column;
+ /* for  justify update by  ankit-singh 21-may */
+
+    /* Keeping the original border and box-shadow for consistency,
+       but note that the second box-shadow overwrites the first. */
+    border: 1px solid #1e2a38; 
+    box-shadow: 0 0 0 1px #a54a4a, 0 0 15px rgba(165, 74, 74, 0.5);
+}
+
+ /* for  justify update by  ankit-singh 21-may */
+.slide > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;           
+    flex-grow: 1;   
+}
+ /* for  justify update by  ankit-singh 21-may */
+
+ 
+    @media only screen and (max-width: 430px){
+        .slide{
+            max-width: 333px !important;
+            min-width: 0;
+        }
+        
+    }
+@media only screen and (max-width: 375px){
+     .slide{
+            max-width: 255px !important;
+            min-width: 0;
+        }
+
+}
+
+@media only screen and (max-width: 768px){
+    .slide{
+            max-width: 350px !important;
+        min-width: 0;
+        }
+    .slider-wrapper {
+        margin-top: 38px;
+        
+    }
+}
+    
+.slide:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 0 0 2px #a54a4a, 0 0 25px rgba(165, 74, 74, 0.7);
+}
+
+/* --- Content within the Slide --- */
+.slide h3 {
+    font-size: 2.15rem; 
+    color: white; 
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.slide p {
+    font-size: 1.50rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #c9d6df; 
+    text-align: justify;
+}
+
+.slide p b {
+    color: #ffffff;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+/* --- Button Styling (Call to Action) --- */
+.job-btn {
+    display: block; 
+    /* 🔑 KEY: Overriding previous margin, as Flexbox handles vertical positioning */
+
+    /* for  justify 21-may  ankit-singh*/
+    margin-top: auto;
+ /* for  justify 21-may  ankit-singh*/
+
+
+
+    background-color: #ff0000; 
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.job-btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}

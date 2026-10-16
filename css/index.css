@@ -1,0 +1,314 @@
+@font-face {
+    font-family: "d-din";
+    src: url("fonts/D-DIN-Bold.otf");
+    src: url("fonts/D-DIN-Italic.otf");
+    src: url("fonts/D-DINExp.otf");
+    src: url("fonts/D-DINCondensed.otf");
+    src: url("fonts/D-DINCondensed-Bold.otf");
+    src: url("fonts/D-DINExp-Italic.otf");
+    src: url("fonts/D-DIN.otf");
+}
+
+.box_container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.box_container .background {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box_container .background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+
+.box_container .bottom_content {
+    position: absolute;
+    bottom: 10%;
+    left: 2.5rem;
+    width: 70%;
+    max-width: 500px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-70%);
+    transition: all 1s;
+    transition: opacity 1s, transform 1s;
+}
+
+@media screen and (min-width: 767px) {
+    .box_container .bottom_content {
+        position: absolute;
+        bottom: 15%;
+        left: 10rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .box_container .bottom_content {
+        position: absolute;
+        bottom: 30%;
+        left: 20rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .box_container .bottom_content {
+        position: absolute;
+        bottom: 10%;
+        left: 2.5rem;
+        width: 70%;
+        max-width: 500px;
+        overflow: hidden;
+        opacity: 0;
+        transform: translateY(-25%);
+        transition: all 1s;
+        transition: opacity 1s, transform 1s;
+    }
+}
+
+.box_container .bottom_content .content_header {
+    text-align: left;
+    margin: 0 0 1rem left auto;
+    font-weight: normal;
+    font-size: 3rem;
+    text-transform: uppercase;
+    /* font-family: 'D-DIN', sans-serif; */
+    font-family: d-din;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.box_container .bottom_content .content_sub_header {
+    /* font-family: 'D-DIN', sans-serif; */
+    font-family: d-din;
+    text-transform: normal;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 1px 1px black;
+    font-size: 2.5rem;
+}
+
+.box_container .bottom_content .content_button {
+    border: 2px solid white;
+    display: inline-block;
+    position: relative;
+    margin-top: 2.5rem;
+}
+
+.box_container .bottom_content .content_button .text {
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 1.6rem 4.5rem;
+    text-transform: uppercase;
+    /* font-family: 'D-DIN', sans-serif; */
+    font-family: d-din;
+    transition: color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.box_container .bottom_content .content_button .hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    z-index: -1;
+    transform: scale3d(1, 0, 1);
+    transform-origin: top center;
+    transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.box_container .bottom_content .content_button:hover .hover {
+    transform: scale3d(1, 1, 1);
+    transform-origin: bottom center;
+}
+
+.box_container .bottom_content .content_button:hover .text {
+    color: black;
+}
+
+.box_container.on_screen .bottom_content {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.box_container .background.jf5#image1 {
+    background-image: url(../img/home/jf5-home.png);
+    /* background-image: url(../img/jf5/jf5-1.png); */
+    background-position: 85% center;
+}
+
+.box_container .background.jf5#image2 {
+    background-image: url(../img/home/jf5-mobile.png);
+    background-position: 50% center;
+}
+
+.box_container .background.jf5#image1 {
+    /* background-image: url(../img/home/New_folder/jf5.png); */
+    background-image: url(../img/home/jf5-home.jpg);
+    background-position: 85% center;
+}
+
+.box_container .background.jf5#image2 {
+    background-image: url(../img/home/jf5-mobile.jpg);
+    background-position: 50% center;
+}
+
+.box_container .background.jf3#image1 {
+    background-image: url(../img/home/jf3-home.png);
+    background-position: 85% center;
+}
+
+.box_container .background.jf3#image2 {
+    background-image: url(../img/home/jf3-mobile.png);
+    background-position: 50% 50%;
+}
+
+
+
+
+
+.box_container .background.jf2#image1 {
+    /* background-image: url(../img/home/jf2_X.png); */
+    background-image: url(../img/home/jf2-home-new-v2.png);
+    background-position: 85% center;
+}
+
+.box_container .background.jf2#image2 {
+    /* background-image: url(../img/home/jf2-mobile.png); */
+    background-image: url(../img/home/jf2-mobile-new-v3.png);
+    background-position: 50% center;
+}
+
+
+
+
+
+.box_container .background.jm2#image1 {
+    background-image: url(../img/home/jm2-home.png);
+    background-position: 75% center;
+}
+
+.box_container .background.jm2#image2 {
+    background-image: url(../img/home/jm2-mobile.png);
+    background-position: 50% center;
+}
+
+.box_container .background.JVM-100#image1 {
+    background-image: url(../img/home/jvm-100.jpg);
+    background-position: 75% center;
+}
+
+.box_container .background.JVM-100#image2 {
+    background-image: url(../img/home/jvm-100-mobile.jpg);
+    background-position: 50% center;
+}
+
+.box_container .background.JOBOT#image1 {
+    background-image: url(../img/home/jobot.jpg);
+    background-position: 75% center;
+}
+
+.box_container .background.JOBOT#image2 {
+    background-image: url(../img/home/jobot-mobile.jpg);
+    background-position: 50% center;
+}
+
+.box_container .background.five#image1 {
+    /* background-image: url(../img/home/jf5.png); */
+    background-image: url(../img/home/New_folder/jf5.png);
+    background-image: url(../img/home/New_folder2/jf4_home.png);
+    /* background-position: 81% center; */
+    background-position: 85% center;
+}
+
+.box_container .background.five#image2 {
+    background-image: url(../img/home/jf4_mobile.png);
+    background-position: 50% center;
+}
+   
+
+
+.box_container .background.jf4#image1 {
+    background-image: url(../img/jf4/jf4desknew1.jpeg);
+    background-position: 85% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box_container .background.jf4#image2 {
+    background-image: url(../img/jf4/jf4mbil2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.box_container .background.jm1#image1 {
+    background-image: url(../img/home/jm1_1.png);
+    background-position: 85% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box_container .background.jm1#image2 {
+    background-image: url(../img/home/jm1mbil_1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    #image1 {
+        display: none;
+    }
+    #image2 {
+        display: block;
+    }
+    #video-container {
+        display: none;
+    }
+    #background-video {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+    .box_container .background.one#image1 {
+        background-position: 85% center;
+    }
+    .box_container .background.two {
+        background-position: 85% center;
+    }
+    .box_container .background.three#image1 {
+        background-position: 85% center;
+    }
+    .box_container .background.four#image1 {
+        background-position: 90% center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #image1 {
+        display: block;
+    }
+    #image2 {
+        display: none;
+    }
+}

@@ -1,0 +1,26 @@
+{
+	"author": "Yogesh Kumar",
+	"name": "Johnnette.com",
+	"short_name": "Johnnette",
+	"description": "Guide of Python Android Website Mobile Development | Online Video Tutorials | SuperCoders - SuperCoders",
+	"orientation": "portrait",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+	"background_color": "black",
+	"theme_color": "#000000",
+	"icons": [
+		{
+			"src": "img/logo/icon.png",
+			"sizes": "48x48 72x72 96x96 128x128 192x192 256x256 512x512",
+			"type": "image/png"
+		}
+	],
+	"manifest_version": 2,
+	"version": "0.1",
+	"applications": {
+		"gecko": {
+			"id": "yk@johnnette.com"
+		}
+	}
+}
